@@ -1,0 +1,11 @@
+e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\bin\Debug\netcoreapp2.0\HAAuthServer.deps.json
+e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\bin\Debug\netcoreapp2.0\HAAuthServer.runtimeconfig.json
+e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\bin\Debug\netcoreapp2.0\HAAuthServer.runtimeconfig.dev.json
+e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\bin\Debug\netcoreapp2.0\HAAuthServer.dll
+e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\bin\Debug\netcoreapp2.0\HAAuthServer.pdb
+e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\obj\Debug\netcoreapp2.0\HAAuthServer.csproj.CoreCompileInputs.cache
+e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\obj\Debug\netcoreapp2.0\HAAuthServer.AssemblyInfoInputs.cache
+e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\obj\Debug\netcoreapp2.0\HAAuthServer.AssemblyInfo.cs
+e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\obj\Debug\netcoreapp2.0\HAAuthServer.dll
+e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\obj\Debug\netcoreapp2.0\HAAuthServer.pdb
+E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\obj\Debug\netcoreapp2.0\HAAuthServer.csprojResolveAssemblyReference.cache

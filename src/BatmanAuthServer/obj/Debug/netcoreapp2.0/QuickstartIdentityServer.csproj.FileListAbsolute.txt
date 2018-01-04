@@ -1,0 +1,11 @@
+E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\bin\Debug\netcoreapp2.0\QuickstartIdentityServer.deps.json
+E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\bin\Debug\netcoreapp2.0\QuickstartIdentityServer.runtimeconfig.json
+E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\bin\Debug\netcoreapp2.0\QuickstartIdentityServer.runtimeconfig.dev.json
+E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\bin\Debug\netcoreapp2.0\QuickstartIdentityServer.dll
+E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\bin\Debug\netcoreapp2.0\QuickstartIdentityServer.pdb
+E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\obj\Debug\netcoreapp2.0\QuickstartIdentityServer.csprojResolveAssemblyReference.cache
+E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\obj\Debug\netcoreapp2.0\QuickstartIdentityServer.csproj.CoreCompileInputs.cache
+E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\obj\Debug\netcoreapp2.0\QuickstartIdentityServer.AssemblyInfoInputs.cache
+E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\obj\Debug\netcoreapp2.0\QuickstartIdentityServer.AssemblyInfo.cs
+E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\obj\Debug\netcoreapp2.0\QuickstartIdentityServer.dll
+E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\obj\Debug\netcoreapp2.0\QuickstartIdentityServer.pdb

@@ -1,0 +1,748 @@
+2018-01-04 17:29:03.006 +01:00 [Information] Starting web host: HA Auth
+2018-01-04 17:29:06.398 +01:00 [Information] User profile is available. Using '"C:\Users\Bjarte\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-01-04 17:29:06.627 +01:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-01-04 17:29:06.643 +01:00 [Debug] Using "idsrv" as default scheme for authentication
+2018-01-04 17:29:06.643 +01:00 [Debug] Using "idsrv" as default scheme for sign-in
+2018-01-04 17:29:06.643 +01:00 [Debug] Using "idsrv" as default scheme for sign-out
+2018-01-04 17:29:06.643 +01:00 [Debug] Using "idsrv" as default scheme for challenge
+2018-01-04 17:29:06.643 +01:00 [Debug] Using "idsrv" as default scheme for forbid
+2018-01-04 17:29:07.084 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2018-01-04 17:29:07.513 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (QuickstartIdentityServer)" with arguments (null) - ModelState is Valid
+2018-01-04 17:29:10.452 +01:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-04 17:29:10.975 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (QuickstartIdentityServer)" in 3562.7584ms
+2018-01-04 17:29:10.980 +01:00 [Information] Request finished in 3903.2149ms 200 text/html; charset=utf-8
+2018-01-04 17:29:11.012 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/jquery.js  
+2018-01-04 17:29:11.012 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css  
+2018-01-04 17:29:11.012 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/js/bootstrap.js  
+2018-01-04 17:29:11.016 +01:00 [Information] Request finished in 3.2867ms 404 
+2018-01-04 17:29:11.016 +01:00 [Information] Request finished in 3.6765ms 404 
+2018-01-04 17:29:11.016 +01:00 [Information] Request finished in 3.5584ms 404 
+2018-01-04 17:29:11.052 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/js/bootstrap.js  
+2018-01-04 17:29:11.052 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/css/bootstrap.css  
+2018-01-04 17:29:11.053 +01:00 [Information] Request finished in 0.5271ms 404 
+2018-01-04 17:29:11.053 +01:00 [Information] Request finished in 0.633ms 404 
+2018-01-04 17:29:11.073 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/icon.jpg  
+2018-01-04 17:29:11.074 +01:00 [Information] Request finished in 0.4828ms 404 
+2018-01-04 17:29:11.088 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/icon.png  
+2018-01-04 17:29:11.091 +01:00 [Information] Request finished in 3.1193ms 404 
+2018-01-04 17:29:43.571 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2018-01-04 17:29:43.605 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (QuickstartIdentityServer)" with arguments (null) - ModelState is Valid
+2018-01-04 17:29:43.605 +01:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-04 17:29:43.607 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (QuickstartIdentityServer)" in 35.4724ms
+2018-01-04 17:29:43.608 +01:00 [Information] Request finished in 36.9898ms 200 text/html; charset=utf-8
+2018-01-04 17:29:43.637 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/js/bootstrap.js  
+2018-01-04 17:29:43.637 +01:00 [Information] Request finished in 0.3673ms 404 
+2018-01-04 17:29:43.638 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/css/bootstrap.css  
+2018-01-04 17:29:43.638 +01:00 [Information] Request finished in 0.421ms 404 
+2018-01-04 17:29:43.658 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css  
+2018-01-04 17:29:43.663 +01:00 [Information] Request finished in 5.5858ms 404 
+2018-01-04 17:29:43.658 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/jquery.js  
+2018-01-04 17:29:43.664 +01:00 [Information] Request finished in 5.442ms 404 
+2018-01-04 17:29:43.688 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/icon.png  
+2018-01-04 17:29:43.688 +01:00 [Information] Request finished in 0.4502ms 404 
+2018-01-04 17:29:43.692 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/icon.jpg  
+2018-01-04 17:29:43.693 +01:00 [Information] Request finished in 0.4108ms 404 
+2018-01-04 17:29:43.714 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/js/bootstrap.js  
+2018-01-04 17:29:43.719 +01:00 [Information] Request finished in 5.1747ms 404 
+2018-01-04 17:31:16.435 +01:00 [Information] Starting web host: HA Auth
+2018-01-04 17:31:19.321 +01:00 [Information] User profile is available. Using '"C:\Users\Bjarte\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-01-04 17:31:19.504 +01:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-01-04 17:31:19.519 +01:00 [Debug] Using "idsrv" as default scheme for authentication
+2018-01-04 17:31:19.519 +01:00 [Debug] Using "idsrv" as default scheme for sign-in
+2018-01-04 17:31:19.519 +01:00 [Debug] Using "idsrv" as default scheme for sign-out
+2018-01-04 17:31:19.519 +01:00 [Debug] Using "idsrv" as default scheme for challenge
+2018-01-04 17:31:19.519 +01:00 [Debug] Using "idsrv" as default scheme for forbid
+2018-01-04 17:31:19.957 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2018-01-04 17:31:20.358 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (QuickstartIdentityServer)" with arguments (null) - ModelState is Valid
+2018-01-04 17:31:23.020 +01:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-04 17:31:23.493 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (QuickstartIdentityServer)" in 3229.3655ms
+2018-01-04 17:31:23.498 +01:00 [Information] Request finished in 3545.6256ms 200 text/html; charset=utf-8
+2018-01-04 17:31:23.533 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/js/bootstrap.js  
+2018-01-04 17:31:23.534 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/css/bootstrap.css  
+2018-01-04 17:31:23.535 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/jquery.js  
+2018-01-04 17:31:23.537 +01:00 [Information] Sending file. Request path: '"/lib/bootstrap/js/bootstrap.js"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\lib\bootstrap\js\bootstrap.js"'
+2018-01-04 17:31:23.538 +01:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\lib\bootstrap\css\bootstrap.css"'
+2018-01-04 17:31:23.537 +01:00 [Information] Sending file. Request path: '"/lib/jquery/jquery.js"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\lib\jquery\jquery.js"'
+2018-01-04 17:31:23.558 +01:00 [Information] Request finished in 25.7105ms 200 application/javascript
+2018-01-04 17:31:23.562 +01:00 [Information] Request finished in 28.0245ms 200 text/css
+2018-01-04 17:31:23.619 +01:00 [Information] Request finished in 83.6363ms 200 application/javascript
+2018-01-04 17:31:23.622 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css  
+2018-01-04 17:31:23.623 +01:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\css\site.css"'
+2018-01-04 17:31:23.637 +01:00 [Information] Request finished in 14.6569ms 200 text/css
+2018-01-04 17:31:23.643 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/icon.jpg  
+2018-01-04 17:31:23.643 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/icon.png  
+2018-01-04 17:31:23.643 +01:00 [Information] Sending file. Request path: '"/icon.jpg"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\icon.jpg"'
+2018-01-04 17:31:23.643 +01:00 [Information] Sending file. Request path: '"/icon.png"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\icon.png"'
+2018-01-04 17:31:23.648 +01:00 [Information] Request finished in 5.2712ms 200 image/png
+2018-01-04 17:31:23.648 +01:00 [Information] Request finished in 5.3336ms 200 image/jpeg
+2018-01-04 17:50:47.365 +01:00 [Information] Starting web host: HA Auth
+2018-01-04 17:50:50.571 +01:00 [Information] User profile is available. Using '"C:\Users\Bjarte\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-01-04 17:50:50.754 +01:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-01-04 17:50:50.791 +01:00 [Debug] Using "idsrv" as default scheme for authentication
+2018-01-04 17:50:50.791 +01:00 [Debug] Using "idsrv" as default scheme for sign-in
+2018-01-04 17:50:50.791 +01:00 [Debug] Using "idsrv" as default scheme for sign-out
+2018-01-04 17:50:50.791 +01:00 [Debug] Using "idsrv" as default scheme for challenge
+2018-01-04 17:50:50.791 +01:00 [Debug] Using "idsrv" as default scheme for forbid
+2018-01-04 17:50:51.395 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2018-01-04 17:50:51.428 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | MS-ASPNETCORE-TOKEN : 951d339f-787e-49bb-b4cc-397c85a048b7 | X-Original-Proto : http | X-Original-For : 127.0.0.1:61130 | 
+2018-01-04 17:50:51.837 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (QuickstartIdentityServer)" with arguments (null) - ModelState is Valid
+2018-01-04 17:50:54.732 +01:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-04 17:50:55.252 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (QuickstartIdentityServer)" in 3519.5127ms
+2018-01-04 17:50:55.258 +01:00 [Information] Request finished in 3867.3494ms 200 text/html; charset=utf-8
+2018-01-04 17:50:55.370 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/icon.jpg  
+2018-01-04 17:50:55.371 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 15:22:12 GMT | If-None-Match : "1d3856fcb25e756" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 951d339f-787e-49bb-b4cc-397c85a048b7 | X-Original-Proto : http | X-Original-For : 127.0.0.1:61130 | 
+2018-01-04 17:50:55.375 +01:00 [Information] The file "/icon.jpg" was not modified
+2018-01-04 17:50:55.377 +01:00 [Information] Request finished in 7.0455ms 304 image/jpeg
+2018-01-04 19:04:25.020 +01:00 [Information] Starting web host: HA Auth
+2018-01-04 19:04:42.135 +01:00 [Information] User profile is available. Using '"C:\Users\Bjarte\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-01-04 19:04:42.487 +01:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-01-04 19:04:42.505 +01:00 [Debug] Using "idsrv" as default scheme for authentication
+2018-01-04 19:04:42.505 +01:00 [Debug] Using "idsrv" as default scheme for sign-in
+2018-01-04 19:04:42.505 +01:00 [Debug] Using "idsrv" as default scheme for sign-out
+2018-01-04 19:04:42.505 +01:00 [Debug] Using "idsrv" as default scheme for challenge
+2018-01-04 19:04:42.505 +01:00 [Debug] Using "idsrv" as default scheme for forbid
+2018-01-04 19:04:42.886 +01:00 [Information] Overriding endpoints defined in UseKestrel() because "PreferHostingUrls" is set to true. Binding to address(es) '"http://localhost:14796"' instead.
+2018-01-04 19:04:43.422 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2018-01-04 19:04:43.459 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | MS-ASPNETCORE-TOKEN : 3c01bc6c-c78a-41d6-8047-139a2e8f022d | X-Original-Proto : http | X-Original-For : 127.0.0.1:49703 | 
+2018-01-04 19:04:44.350 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" with arguments (null) - ModelState is Valid
+2018-01-04 19:04:48.154 +01:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-04 19:04:48.669 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" in 4332.0982ms
+2018-01-04 19:04:48.675 +01:00 [Information] Request finished in 5259.5971ms 200 text/html; charset=utf-8
+2018-01-04 19:04:48.717 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css  
+2018-01-04 19:04:48.717 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40deae0" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 3c01bc6c-c78a-41d6-8047-139a2e8f022d | X-Original-Proto : http | X-Original-For : 127.0.0.1:49711 | 
+2018-01-04 19:04:48.722 +01:00 [Information] The file "/css/site.css" was not modified
+2018-01-04 19:04:48.740 +01:00 [Information] Request finished in 22.8766ms 304 text/css
+2018-01-04 19:04:48.740 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/css/bootstrap.css  
+2018-01-04 19:04:48.740 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40fb576" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 3c01bc6c-c78a-41d6-8047-139a2e8f022d | X-Original-Proto : http | X-Original-For : 127.0.0.1:49703 | 
+2018-01-04 19:04:48.741 +01:00 [Information] The file "/lib/bootstrap/css/bootstrap.css" was not modified
+2018-01-04 19:04:48.747 +01:00 [Information] Request finished in 6.4177ms 304 text/css
+2018-01-04 19:04:48.755 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/icon.png  
+2018-01-04 19:04:48.755 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40dbe3c" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 3c01bc6c-c78a-41d6-8047-139a2e8f022d | X-Original-Proto : http | X-Original-For : 127.0.0.1:49711 | 
+2018-01-04 19:04:48.755 +01:00 [Information] The file "/icon.png" was not modified
+2018-01-04 19:04:48.755 +01:00 [Information] Request finished in 0.4411ms 304 image/png
+2018-01-04 19:04:48.769 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/icon.jpg  
+2018-01-04 19:04:48.769 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 15:22:12 GMT | If-None-Match : "1d3856fcb25e756" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 3c01bc6c-c78a-41d6-8047-139a2e8f022d | X-Original-Proto : http | X-Original-For : 127.0.0.1:49703 | 
+2018-01-04 19:04:48.769 +01:00 [Information] The file "/icon.jpg" was not modified
+2018-01-04 19:04:48.769 +01:00 [Information] Request finished in 0.7697ms 304 image/jpeg
+2018-01-04 19:04:48.823 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/jquery.js  
+2018-01-04 19:04:48.823 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40e0427" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 3c01bc6c-c78a-41d6-8047-139a2e8f022d | X-Original-Proto : http | X-Original-For : 127.0.0.1:49711 | 
+2018-01-04 19:04:48.824 +01:00 [Information] The file "/lib/jquery/jquery.js" was not modified
+2018-01-04 19:04:48.824 +01:00 [Information] Request finished in 0.4609ms 304 application/javascript
+2018-01-04 19:04:48.885 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/js/bootstrap.js  
+2018-01-04 19:04:48.885 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40cf955" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 3c01bc6c-c78a-41d6-8047-139a2e8f022d | X-Original-Proto : http | X-Original-For : 127.0.0.1:49703 | 
+2018-01-04 19:04:48.885 +01:00 [Information] The file "/lib/bootstrap/js/bootstrap.js" was not modified
+2018-01-04 19:04:48.885 +01:00 [Information] Request finished in 0.5747ms 304 application/javascript
+2018-01-04 19:05:47.724 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/.well-known/openid-configuration  
+2018-01-04 19:05:47.724 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | MS-ASPNETCORE-TOKEN : 3c01bc6c-c78a-41d6-8047-139a2e8f022d | X-Original-Proto : http | X-Original-For : 127.0.0.1:49711 | 
+2018-01-04 19:05:47.730 +01:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type "Discovery"
+2018-01-04 19:05:47.744 +01:00 [Debug] Endpoint enabled: "Discovery", successfully created handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2018-01-04 19:05:47.744 +01:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2018-01-04 19:05:47.747 +01:00 [Debug] Start discovery request
+2018-01-04 19:05:47.793 +01:00 [Information] Request finished in 68.7029ms 200 application/json
+2018-01-04 19:05:51.325 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/grants  
+2018-01-04 19:05:51.325 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | MS-ASPNETCORE-TOKEN : 3c01bc6c-c78a-41d6-8047-139a2e8f022d | X-Original-Proto : http | X-Original-For : 127.0.0.1:49711 | 
+2018-01-04 19:05:51.361 +01:00 [Information] Authorization failed for user: null.
+2018-01-04 19:05:51.362 +01:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+2018-01-04 19:05:51.366 +01:00 [Information] Executing ChallengeResult with authentication schemes (["idsrv"]).
+2018-01-04 19:05:51.372 +01:00 [Information] AuthenticationScheme: "idsrv" was challenged.
+2018-01-04 19:05:51.372 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.GrantsController.Index (HAAuthServer)" in 19.354ms
+2018-01-04 19:05:51.372 +01:00 [Information] Request finished in 47.5235ms 302 
+2018-01-04 19:05:51.385 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/account/login?returnUrl=%2Fgrants  
+2018-01-04 19:05:51.385 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | MS-ASPNETCORE-TOKEN : 3c01bc6c-c78a-41d6-8047-139a2e8f022d | X-Original-Proto : http | X-Original-For : 127.0.0.1:49711 | 
+2018-01-04 19:05:51.503 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.AccountController.Login (HAAuthServer)" with arguments (["/grants"]) - ModelState is Valid
+2018-01-04 19:05:52.213 +01:00 [Information] Executing ViewResult, running view at path "/Views/Account/Login.cshtml".
+2018-01-04 19:05:52.571 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.AccountController.Login (HAAuthServer)" in 1109.9062ms
+2018-01-04 19:05:52.571 +01:00 [Information] Request finished in 1186.4682ms 200 text/html; charset=utf-8
+2018-01-04 19:37:10.173 +01:00 [Information] Starting web host: HA Auth
+2018-01-04 19:37:14.550 +01:00 [Information] User profile is available. Using '"C:\Users\Bjarte\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-01-04 19:37:14.782 +01:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-01-04 19:37:14.798 +01:00 [Debug] Using "idsrv" as default scheme for authentication
+2018-01-04 19:37:14.799 +01:00 [Debug] Using "idsrv" as default scheme for sign-in
+2018-01-04 19:37:14.799 +01:00 [Debug] Using "idsrv" as default scheme for sign-out
+2018-01-04 19:37:14.799 +01:00 [Debug] Using "idsrv" as default scheme for challenge
+2018-01-04 19:37:14.799 +01:00 [Debug] Using "idsrv" as default scheme for forbid
+2018-01-04 19:37:14.984 +01:00 [Information] Overriding endpoints defined in UseKestrel() because "PreferHostingUrls" is set to true. Binding to address(es) '"http://localhost:10927"' instead.
+2018-01-04 19:37:15.437 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2018-01-04 19:37:15.471 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:52597 | 
+2018-01-04 19:37:15.947 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" with arguments (null) - ModelState is Valid
+2018-01-04 19:37:19.209 +01:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-04 19:37:19.708 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" in 3873.8479ms
+2018-01-04 19:37:19.712 +01:00 [Information] Request finished in 4280.6989ms 200 text/html; charset=utf-8
+2018-01-04 19:37:19.751 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/icon.jpg  
+2018-01-04 19:37:19.751 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:52600 | 
+2018-01-04 19:37:19.754 +01:00 [Information] Sending file. Request path: '"/authcontent/icon.jpg"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\authcontent\icon.jpg"'
+2018-01-04 19:37:19.777 +01:00 [Information] Request finished in 26.6669ms 200 image/jpeg
+2018-01-04 19:37:19.792 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/icon.png  
+2018-01-04 19:37:19.792 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:52597 | 
+2018-01-04 19:37:19.792 +01:00 [Information] Sending file. Request path: '"/authcontent/icon.png"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\authcontent\icon.png"'
+2018-01-04 19:37:19.792 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/lib/jquery/jquery.js  
+2018-01-04 19:37:19.793 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:52600 | 
+2018-01-04 19:37:19.793 +01:00 [Information] Sending file. Request path: '"/authcontent/lib/jquery/jquery.js"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\authcontent\lib\jquery\jquery.js"'
+2018-01-04 19:37:19.804 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/lib/bootstrap/js/bootstrap.js  
+2018-01-04 19:37:19.804 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:52602 | 
+2018-01-04 19:37:19.805 +01:00 [Information] Sending file. Request path: '"/authcontent/lib/bootstrap/js/bootstrap.js"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\authcontent\lib\bootstrap\js\bootstrap.js"'
+2018-01-04 19:37:19.816 +01:00 [Information] Request finished in 24.0086ms 200 image/png
+2018-01-04 19:37:19.905 +01:00 [Information] Request finished in 100.6441ms 200 application/javascript
+2018-01-04 19:37:19.923 +01:00 [Information] Request finished in 130.6246ms 200 application/javascript
+2018-01-04 19:37:26.868 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/css/bootstrap.css.map  
+2018-01-04 19:37:26.868 +01:00 [Information] HEADERS >> :Cache-Control : no-cache | Connection : Keep-Alive | Pragma : no-cache | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:52597 | 
+2018-01-04 19:37:26.872 +01:00 [Information] Request finished in 3.8771ms 404 
+2018-01-04 19:37:31.970 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2018-01-04 19:37:31.970 +01:00 [Information] HEADERS >> :Cache-Control : no-cache | Connection : Keep-Alive | Pragma : no-cache | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:52602 | 
+2018-01-04 19:37:31.999 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" with arguments (null) - ModelState is Valid
+2018-01-04 19:37:32.000 +01:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-04 19:37:32.001 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" in 30.2394ms
+2018-01-04 19:37:32.002 +01:00 [Information] Request finished in 31.9982ms 200 text/html; charset=utf-8
+2018-01-04 19:37:32.052 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/css/bootstrap.css  
+2018-01-04 19:37:32.052 +01:00 [Information] HEADERS >> :Cache-Control : no-cache | Connection : Keep-Alive | Pragma : no-cache | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:52600 | 
+2018-01-04 19:37:32.052 +01:00 [Information] Request finished in 0.5954ms 404 
+2018-01-04 19:37:32.061 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/lib/jquery/jquery.js  
+2018-01-04 19:37:32.061 +01:00 [Information] HEADERS >> :Cache-Control : no-cache | Connection : Keep-Alive | Pragma : no-cache | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:52602 | 
+2018-01-04 19:37:32.061 +01:00 [Information] Sending file. Request path: '"/authcontent/lib/jquery/jquery.js"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\authcontent\lib\jquery\jquery.js"'
+2018-01-04 19:37:32.061 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css  
+2018-01-04 19:37:32.061 +01:00 [Information] HEADERS >> :Cache-Control : no-cache | Connection : Keep-Alive | Pragma : no-cache | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:52597 | 
+2018-01-04 19:37:32.062 +01:00 [Information] Request finished in 0.8079ms 404 
+2018-01-04 19:37:32.095 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/lib/bootstrap/js/bootstrap.js  
+2018-01-04 19:37:32.096 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/icon.jpg  
+2018-01-04 19:37:32.101 +01:00 [Information] HEADERS >> :Cache-Control : no-cache | Connection : Keep-Alive | Pragma : no-cache | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:52600 | 
+2018-01-04 19:37:32.101 +01:00 [Information] HEADERS >> :Cache-Control : no-cache | Connection : Keep-Alive | Pragma : no-cache | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:52618 | 
+2018-01-04 19:37:32.101 +01:00 [Information] Sending file. Request path: '"/authcontent/lib/bootstrap/js/bootstrap.js"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\authcontent\lib\bootstrap\js\bootstrap.js"'
+2018-01-04 19:37:32.101 +01:00 [Information] Sending file. Request path: '"/authcontent/icon.jpg"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\authcontent\icon.jpg"'
+2018-01-04 19:37:32.104 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/icon.png  
+2018-01-04 19:37:32.104 +01:00 [Information] HEADERS >> :Cache-Control : no-cache | Connection : Keep-Alive | Pragma : no-cache | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:52597 | 
+2018-01-04 19:37:32.105 +01:00 [Information] Sending file. Request path: '"/authcontent/icon.png"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\authcontent\icon.png"'
+2018-01-04 19:37:32.106 +01:00 [Information] Request finished in 10.2042ms 200 image/jpeg
+2018-01-04 19:37:32.122 +01:00 [Information] Request finished in 18.5837ms 200 image/png
+2018-01-04 19:37:32.123 +01:00 [Information] Request finished in 27.5921ms 200 application/javascript
+2018-01-04 19:37:32.154 +01:00 [Information] Request finished in 93.7706ms 200 application/javascript
+2018-01-04 19:58:26.287 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2018-01-04 19:58:26.287 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54254 | 
+2018-01-04 19:58:26.313 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" with arguments (null) - ModelState is Valid
+2018-01-04 19:58:26.612 +01:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-04 19:58:26.912 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" in 624.0094ms
+2018-01-04 19:58:26.926 +01:00 [Information] Request finished in 626.4249ms 200 text/html; charset=utf-8
+2018-01-04 19:58:26.948 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/lib/bootstrap/css/bootstrap.css  
+2018-01-04 19:58:26.948 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54254 | 
+2018-01-04 19:58:26.948 +01:00 [Information] Sending file. Request path: '"/authcontent/lib/bootstrap/css/bootstrap.css"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\authcontent\lib\bootstrap\css\bootstrap.css"'
+2018-01-04 19:58:26.957 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/authcontent/lib/bootstrap/js/bootstrap.js  
+2018-01-04 19:58:26.957 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54261 | 
+2018-01-04 19:58:26.957 +01:00 [Information] Request finished in 2.6641ms 404 
+2018-01-04 19:58:26.958 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/authcontent/lib/jquery/jquery.js  
+2018-01-04 19:58:26.958 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54260 | 
+2018-01-04 19:58:26.958 +01:00 [Information] Request finished in 0.4735ms 404 
+2018-01-04 19:58:26.990 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css  
+2018-01-04 19:58:26.991 +01:00 [Information] Request finished in 42.9778ms 200 text/css
+2018-01-04 19:58:26.991 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54261 | 
+2018-01-04 19:58:26.993 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/authcontent/lib/bootstrap/js/bootstrap.js  
+2018-01-04 19:58:26.993 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54260 | 
+2018-01-04 19:58:26.993 +01:00 [Information] Request finished in 2.8117ms 404 
+2018-01-04 19:58:26.993 +01:00 [Information] Request finished in 2.0544ms 404 
+2018-01-04 19:58:27.021 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/icon.jpg  
+2018-01-04 19:58:27.021 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 15:22:12 GMT | If-None-Match : "1d3856fcb25e756" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54254 | 
+2018-01-04 19:58:27.030 +01:00 [Information] The file "/authcontent/icon.jpg" was not modified
+2018-01-04 19:58:27.031 +01:00 [Information] Request finished in 10.4211ms 304 image/jpeg
+2018-01-04 19:58:44.160 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2018-01-04 19:58:44.160 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : Keep-Alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54260 | 
+2018-01-04 19:58:44.186 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" with arguments (null) - ModelState is Valid
+2018-01-04 19:58:44.186 +01:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-04 19:58:44.186 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" in 26.1196ms
+2018-01-04 19:58:44.186 +01:00 [Information] Request finished in 26.6923ms 200 text/html; charset=utf-8
+2018-01-04 19:58:44.249 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css  
+2018-01-04 19:58:44.250 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : Keep-Alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54261 | 
+2018-01-04 19:58:44.252 +01:00 [Information] Request finished in 2.6484ms 404 
+2018-01-04 19:58:44.255 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/authcontent/lib/jquery/jquery.js  
+2018-01-04 19:58:44.255 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54254 | 
+2018-01-04 19:58:44.256 +01:00 [Information] Request finished in 0.6199ms 404 
+2018-01-04 19:58:44.258 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/authcontent/lib/bootstrap/js/bootstrap.js  
+2018-01-04 19:58:44.258 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54261 | 
+2018-01-04 19:58:44.263 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/lib/bootstrap/css/bootstrap.css  
+2018-01-04 19:58:44.263 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : Keep-Alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 18:54:39 GMT | If-None-Match : "1d3858d78f19b02" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54260 | 
+2018-01-04 19:58:44.263 +01:00 [Information] The file "/authcontent/lib/bootstrap/css/bootstrap.css" was not modified
+2018-01-04 19:58:44.263 +01:00 [Information] Request finished in 0.5298ms 304 text/css
+2018-01-04 19:58:44.264 +01:00 [Information] Request finished in 6.5101ms 404 
+2018-01-04 19:58:44.307 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/icon.png  
+2018-01-04 19:58:44.308 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40dbe3c" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54254 | 
+2018-01-04 19:58:44.308 +01:00 [Information] The file "/authcontent/icon.png" was not modified
+2018-01-04 19:58:44.308 +01:00 [Information] Request finished in 1.0348ms 304 image/png
+2018-01-04 19:58:44.355 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/icon.jpg  
+2018-01-04 19:58:44.355 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 15:22:12 GMT | If-None-Match : "1d3856fcb25e756" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54260 | 
+2018-01-04 19:58:44.356 +01:00 [Information] The file "/authcontent/icon.jpg" was not modified
+2018-01-04 19:58:44.356 +01:00 [Information] Request finished in 0.4327ms 304 image/jpeg
+2018-01-04 19:58:56.512 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2018-01-04 19:58:56.512 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : Keep-Alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54261 | 
+2018-01-04 19:58:56.540 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" with arguments (null) - ModelState is Valid
+2018-01-04 19:58:56.540 +01:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-04 19:58:56.768 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" in 255.4937ms
+2018-01-04 19:58:56.768 +01:00 [Information] Request finished in 256.2888ms 200 text/html; charset=utf-8
+2018-01-04 19:58:56.804 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/lib/bootstrap/css/bootstrap.css  
+2018-01-04 19:58:56.804 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/authcontent/lib/jquery/jquery.js  
+2018-01-04 19:58:56.804 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : Keep-Alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 18:54:39 GMT | If-None-Match : "1d3858d78f19b02" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54254 | 
+2018-01-04 19:58:56.804 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54261 | 
+2018-01-04 19:58:56.805 +01:00 [Information] The file "/authcontent/lib/bootstrap/css/bootstrap.css" was not modified
+2018-01-04 19:58:56.805 +01:00 [Information] Request finished in 0.5443ms 304 text/css
+2018-01-04 19:58:56.816 +01:00 [Information] Request finished in 11.9295ms 404 
+2018-01-04 19:58:56.822 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/css/site.css  
+2018-01-04 19:58:56.822 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54260 | 
+2018-01-04 19:58:56.822 +01:00 [Information] Sending file. Request path: '"/authcontent/css/site.css"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\authcontent\css\site.css"'
+2018-01-04 19:58:56.864 +01:00 [Information] Request finished in 42.3246ms 200 text/css
+2018-01-04 19:58:56.864 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/authcontent/lib/bootstrap/js/bootstrap.js  
+2018-01-04 19:58:56.864 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54254 | 
+2018-01-04 19:58:56.864 +01:00 [Information] Request finished in 0.5117ms 404 
+2018-01-04 19:58:56.876 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/icon.png  
+2018-01-04 19:58:56.876 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40dbe3c" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54261 | 
+2018-01-04 19:58:56.881 +01:00 [Information] The file "/authcontent/icon.png" was not modified
+2018-01-04 19:58:56.881 +01:00 [Information] Request finished in 4.6848ms 304 image/png
+2018-01-04 19:58:56.896 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/icon.jpg  
+2018-01-04 19:58:56.896 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 15:22:12 GMT | If-None-Match : "1d3856fcb25e756" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54254 | 
+2018-01-04 19:58:56.896 +01:00 [Information] The file "/authcontent/icon.jpg" was not modified
+2018-01-04 19:58:56.896 +01:00 [Information] Request finished in 0.3793ms 304 image/jpeg
+2018-01-04 19:59:22.240 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2018-01-04 19:59:22.240 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : Keep-Alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54260 | 
+2018-01-04 19:59:22.266 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" with arguments (null) - ModelState is Valid
+2018-01-04 19:59:22.266 +01:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-04 19:59:22.510 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" in 269.5479ms
+2018-01-04 19:59:22.510 +01:00 [Information] Request finished in 270.3778ms 200 text/html; charset=utf-8
+2018-01-04 19:59:22.534 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/lib/bootstrap/css/bootstrap.css  
+2018-01-04 19:59:22.534 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : Keep-Alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 18:54:39 GMT | If-None-Match : "1d3858d78f19b02" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54261 | 
+2018-01-04 19:59:22.534 +01:00 [Information] The file "/authcontent/lib/bootstrap/css/bootstrap.css" was not modified
+2018-01-04 19:59:22.534 +01:00 [Information] Request finished in 0.4248ms 304 text/css
+2018-01-04 19:59:22.540 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/css/site.css  
+2018-01-04 19:59:22.541 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : Keep-Alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40deae0" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54254 | 
+2018-01-04 19:59:22.542 +01:00 [Information] The file "/authcontent/css/site.css" was not modified
+2018-01-04 19:59:22.542 +01:00 [Information] Request finished in 1.1147ms 304 text/css
+2018-01-04 19:59:22.563 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/icon.png  
+2018-01-04 19:59:22.563 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40dbe3c" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54260 | 
+2018-01-04 19:59:22.563 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/icon.jpg  
+2018-01-04 19:59:22.563 +01:00 [Information] The file "/authcontent/icon.png" was not modified
+2018-01-04 19:59:22.564 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 15:22:12 GMT | If-None-Match : "1d3856fcb25e756" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54261 | 
+2018-01-04 19:59:22.564 +01:00 [Information] Request finished in 0.7374ms 304 image/png
+2018-01-04 19:59:22.564 +01:00 [Information] The file "/authcontent/icon.jpg" was not modified
+2018-01-04 19:59:22.564 +01:00 [Information] Request finished in 0.5887ms 304 image/jpeg
+2018-01-04 19:59:22.578 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/lib/jquery/jquery.js  
+2018-01-04 19:59:22.578 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40e0427" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54254 | 
+2018-01-04 19:59:22.578 +01:00 [Information] The file "/authcontent/lib/jquery/jquery.js" was not modified
+2018-01-04 19:59:22.578 +01:00 [Information] Request finished in 0.6983ms 304 application/javascript
+2018-01-04 19:59:22.630 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/lib/bootstrap/js/bootstrap.js  
+2018-01-04 19:59:22.630 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40cf955" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54295 | 
+2018-01-04 19:59:22.631 +01:00 [Information] The file "/authcontent/lib/bootstrap/js/bootstrap.js" was not modified
+2018-01-04 19:59:22.631 +01:00 [Information] Request finished in 0.6925ms 304 application/javascript
+2018-01-04 19:59:25.647 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2018-01-04 19:59:25.647 +01:00 [Information] HEADERS >> :Cache-Control : no-cache | Connection : Keep-Alive | Pragma : no-cache | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54261 | 
+2018-01-04 19:59:25.680 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" with arguments (null) - ModelState is Valid
+2018-01-04 19:59:25.680 +01:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-04 19:59:25.681 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" in 32.8978ms
+2018-01-04 19:59:25.681 +01:00 [Information] Request finished in 33.7168ms 200 text/html; charset=utf-8
+2018-01-04 19:59:25.716 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/css/site.css  
+2018-01-04 19:59:25.716 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/lib/bootstrap/js/bootstrap.js  
+2018-01-04 19:59:25.716 +01:00 [Information] HEADERS >> :Cache-Control : no-cache | Connection : Keep-Alive | Pragma : no-cache | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54261 | 
+2018-01-04 19:59:25.717 +01:00 [Information] Sending file. Request path: '"/authcontent/css/site.css"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\authcontent\css\site.css"'
+2018-01-04 19:59:25.717 +01:00 [Information] HEADERS >> :Cache-Control : no-cache | Connection : Keep-Alive | Pragma : no-cache | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54254 | 
+2018-01-04 19:59:25.717 +01:00 [Information] Sending file. Request path: '"/authcontent/lib/bootstrap/js/bootstrap.js"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\authcontent\lib\bootstrap\js\bootstrap.js"'
+2018-01-04 19:59:25.718 +01:00 [Information] Request finished in 1.5488ms 200 text/css
+2018-01-04 19:59:25.722 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/lib/jquery/jquery.js  
+2018-01-04 19:59:25.722 +01:00 [Information] HEADERS >> :Cache-Control : no-cache | Connection : Keep-Alive | Pragma : no-cache | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54260 | 
+2018-01-04 19:59:25.722 +01:00 [Information] Sending file. Request path: '"/authcontent/lib/jquery/jquery.js"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\authcontent\lib\jquery\jquery.js"'
+2018-01-04 19:59:25.727 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/lib/bootstrap/css/bootstrap.css  
+2018-01-04 19:59:25.727 +01:00 [Information] HEADERS >> :Cache-Control : no-cache | Connection : Keep-Alive | Pragma : no-cache | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54295 | 
+2018-01-04 19:59:25.727 +01:00 [Information] Sending file. Request path: '"/authcontent/lib/bootstrap/css/bootstrap.css"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\authcontent\lib\bootstrap\css\bootstrap.css"'
+2018-01-04 19:59:25.830 +01:00 [Information] Request finished in 107.903ms 200 application/javascript
+2018-01-04 19:59:25.832 +01:00 [Information] Request finished in 104.7008ms 200 text/css
+2018-01-04 19:59:25.848 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/icon.png  
+2018-01-04 19:59:25.849 +01:00 [Information] HEADERS >> :Cache-Control : no-cache | Connection : Keep-Alive | Pragma : no-cache | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54261 | 
+2018-01-04 19:59:25.849 +01:00 [Information] Sending file. Request path: '"/authcontent/icon.png"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\authcontent\icon.png"'
+2018-01-04 19:59:25.873 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/icon.jpg  
+2018-01-04 19:59:25.873 +01:00 [Information] Request finished in 24.8929ms 200 image/png
+2018-01-04 19:59:25.873 +01:00 [Information] HEADERS >> :Cache-Control : no-cache | Connection : Keep-Alive | Pragma : no-cache | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 574224d9-a981-4d0a-8adf-9d77a0a07987 | X-Original-Proto : http | X-Original-For : 127.0.0.1:54295 | 
+2018-01-04 19:59:25.873 +01:00 [Information] Sending file. Request path: '"/authcontent/icon.jpg"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\authcontent\icon.jpg"'
+2018-01-04 19:59:25.875 +01:00 [Information] Request finished in 158.6002ms 200 application/javascript
+2018-01-04 19:59:25.876 +01:00 [Information] Request finished in 2.74ms 200 image/jpeg
+2018-01-05 00:27:43.365 +01:00 [Information] Starting web host: HA Auth
+2018-01-05 00:27:46.606 +01:00 [Information] User profile is available. Using '"C:\Users\Bjarte\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-01-05 00:27:46.869 +01:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-01-05 00:27:46.886 +01:00 [Debug] Using "idsrv" as default scheme for authentication
+2018-01-05 00:27:46.887 +01:00 [Debug] Using "idsrv" as default scheme for sign-in
+2018-01-05 00:27:46.887 +01:00 [Debug] Using "idsrv" as default scheme for sign-out
+2018-01-05 00:27:46.887 +01:00 [Debug] Using "idsrv" as default scheme for challenge
+2018-01-05 00:27:46.887 +01:00 [Debug] Using "idsrv" as default scheme for forbid
+2018-01-05 00:27:47.262 +01:00 [Information] Overriding endpoints defined in UseKestrel() because "PreferHostingUrls" is set to true. Binding to address(es) '"http://localhost:9740"' instead.
+2018-01-05 00:27:47.758 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2018-01-05 00:27:47.791 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | MS-ASPNETCORE-TOKEN : 4591a292-9793-40e6-8e85-ef7486e97977 | X-Original-Proto : http | X-Original-For : 127.0.0.1:60675 | 
+2018-01-05 00:27:48.210 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" with arguments (null) - ModelState is Valid
+2018-01-05 00:27:50.863 +01:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-05 00:27:51.687 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" in 3568.8974ms
+2018-01-05 00:27:51.691 +01:00 [Information] Request finished in 3937.2872ms 200 text/html; charset=utf-8
+2018-01-05 00:27:51.766 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/lib/bootstrap/css/bootstrap.css  
+2018-01-05 00:27:51.767 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 18:54:39 GMT | If-None-Match : "1d3858d78f19b02" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 4591a292-9793-40e6-8e85-ef7486e97977 | X-Original-Proto : http | X-Original-For : 127.0.0.1:60675 | 
+2018-01-05 00:27:51.770 +01:00 [Information] The file "/authcontent/lib/bootstrap/css/bootstrap.css" was not modified
+2018-01-05 00:27:51.772 +01:00 [Information] Request finished in 6.1051ms 304 text/css
+2018-01-05 00:27:51.780 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/css/site.css  
+2018-01-05 00:27:51.780 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40deae0" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 4591a292-9793-40e6-8e85-ef7486e97977 | X-Original-Proto : http | X-Original-For : 127.0.0.1:60675 | 
+2018-01-05 00:27:51.780 +01:00 [Information] The file "/authcontent/css/site.css" was not modified
+2018-01-05 00:27:51.780 +01:00 [Information] Request finished in 0.6021ms 304 text/css
+2018-01-05 00:27:51.785 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/icon.png  
+2018-01-05 00:27:51.785 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40dbe3c" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 4591a292-9793-40e6-8e85-ef7486e97977 | X-Original-Proto : http | X-Original-For : 127.0.0.1:60675 | 
+2018-01-05 00:27:51.785 +01:00 [Information] The file "/authcontent/icon.png" was not modified
+2018-01-05 00:27:51.785 +01:00 [Information] Request finished in 0.3802ms 304 image/png
+2018-01-05 00:27:51.805 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/icon.jpg  
+2018-01-05 00:27:51.806 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 15:22:12 GMT | If-None-Match : "1d3856fcb25e756" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 4591a292-9793-40e6-8e85-ef7486e97977 | X-Original-Proto : http | X-Original-For : 127.0.0.1:60675 | 
+2018-01-05 00:27:51.806 +01:00 [Information] The file "/authcontent/icon.jpg" was not modified
+2018-01-05 00:27:51.806 +01:00 [Information] Request finished in 0.407ms 304 image/jpeg
+2018-01-05 00:27:51.922 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/lib/jquery/jquery.js  
+2018-01-05 00:27:51.922 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40e0427" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 4591a292-9793-40e6-8e85-ef7486e97977 | X-Original-Proto : http | X-Original-For : 127.0.0.1:60675 | 
+2018-01-05 00:27:51.922 +01:00 [Information] The file "/authcontent/lib/jquery/jquery.js" was not modified
+2018-01-05 00:27:51.923 +01:00 [Information] Request finished in 0.7537ms 304 application/javascript
+2018-01-05 00:27:51.983 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/lib/bootstrap/js/bootstrap.js  
+2018-01-05 00:27:51.983 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40cf955" | Referer : http://localhost:5000/ | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | MS-ASPNETCORE-TOKEN : 4591a292-9793-40e6-8e85-ef7486e97977 | X-Original-Proto : http | X-Original-For : 127.0.0.1:60675 | 
+2018-01-05 00:27:51.983 +01:00 [Information] The file "/authcontent/lib/bootstrap/js/bootstrap.js" was not modified
+2018-01-05 00:27:51.983 +01:00 [Information] Request finished in 0.8776ms 304 application/javascript
+2018-01-05 00:27:58.238 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth  
+2018-01-05 00:27:58.238 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | MS-ASPNETCORE-TOKEN : 4591a292-9793-40e6-8e85-ef7486e97977 | X-Original-Proto : http | X-Original-For : 127.0.0.1:60675 | 
+2018-01-05 00:27:58.240 +01:00 [Information] Request finished in 1.5902ms 404 
+2018-01-05 00:33:27.079 +01:00 [Information] Starting web host: HA Auth
+2018-01-05 00:33:29.859 +01:00 [Information] User profile is available. Using '"C:\Users\Bjarte\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-01-05 00:33:30.095 +01:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-01-05 00:33:30.115 +01:00 [Debug] Using "idsrv" as default scheme for authentication
+2018-01-05 00:33:30.115 +01:00 [Debug] Using "idsrv" as default scheme for sign-in
+2018-01-05 00:33:30.115 +01:00 [Debug] Using "idsrv" as default scheme for sign-out
+2018-01-05 00:33:30.116 +01:00 [Debug] Using "idsrv" as default scheme for challenge
+2018-01-05 00:33:30.116 +01:00 [Debug] Using "idsrv" as default scheme for forbid
+2018-01-05 00:33:30.772 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2018-01-05 00:33:30.805 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | MS-ASPNETCORE-TOKEN : 3d90989f-fe68-404f-ae42-4e093e2cded5 | X-Original-Proto : http | X-Original-For : 127.0.0.1:61163 | 
+2018-01-05 00:33:31.191 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" with arguments (null) - ModelState is Valid
+2018-01-05 00:33:33.644 +01:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-05 00:33:34.446 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" in 3348.8552ms
+2018-01-05 00:33:34.451 +01:00 [Information] Request finished in 3685.2537ms 200 text/html; charset=utf-8
+2018-01-05 00:33:38.339 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth  
+2018-01-05 00:33:38.339 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | MS-ASPNETCORE-TOKEN : 3d90989f-fe68-404f-ae42-4e093e2cded5 | X-Original-Proto : http | X-Original-For : 127.0.0.1:61163 | 
+2018-01-05 00:33:38.344 +01:00 [Information] Request finished in 4.7802ms 404 
+2018-01-05 00:33:48.962 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/  
+2018-01-05 00:33:48.962 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Cookie : .AspNetCore.Antiforgery.Ozm_f4V4JNo=CfDJ8HmOi3XKHpBCnACv2J6GmyFTnVD9d7dSLZqrUeZrCq4JLdqXhjIRBWMhMymsg55jExiqW8OI-Oz6Chg7deQMXJrsNrQEzAl087x_DYaZPn_dNgzbHvUuMCNEPVA4P91n_q64ZwB13iOrPMusl_7ha1A | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | MS-ASPNETCORE-TOKEN : 3d90989f-fe68-404f-ae42-4e093e2cded5 | X-Original-Proto : http | X-Original-For : 127.0.0.1:61163 | 
+2018-01-05 00:33:48.962 +01:00 [Information] Request finished in 0.5158ms 404 
+2018-01-05 00:34:42.497 +01:00 [Information] Starting web host: HA Auth
+2018-01-05 00:34:42.817 +01:00 [Information] User profile is available. Using '"C:\Users\Bjarte\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-01-05 00:34:42.892 +01:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-01-05 00:34:42.908 +01:00 [Debug] Using "idsrv" as default scheme for authentication
+2018-01-05 00:34:42.908 +01:00 [Debug] Using "idsrv" as default scheme for sign-in
+2018-01-05 00:34:42.908 +01:00 [Debug] Using "idsrv" as default scheme for sign-out
+2018-01-05 00:34:42.908 +01:00 [Debug] Using "idsrv" as default scheme for challenge
+2018-01-05 00:34:42.908 +01:00 [Debug] Using "idsrv" as default scheme for forbid
+2018-01-05 00:34:43.105 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2018-01-05 00:34:43.123 +01:00 [Information] HEADERS >> :Connection : Keep-Alive | Host : localhost:5000 | User-Agent : Visual Studio/15.0 (JSON Editor; ASP.NET and Web Tools/15.0.31125.0) | MS-ASPNETCORE-TOKEN : 42badfec-0b89-409a-b51f-d909f573acb5 | X-Original-Proto : http | X-Original-For : 127.0.0.1:61199 | 
+2018-01-05 00:34:43.267 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" with arguments (null) - ModelState is Valid
+2018-01-05 00:34:45.205 +01:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-05 00:34:45.928 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" in 2671.7546ms
+2018-01-05 00:34:45.932 +01:00 [Information] Request finished in 2831.4847ms 200 text/html; charset=utf-8
+2018-01-05 00:35:44.666 +01:00 [Information] Starting web host: HA Auth
+2018-01-05 00:35:46.817 +01:00 [Information] User profile is available. Using '"C:\Users\Bjarte\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-01-05 00:35:47.022 +01:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-01-05 00:35:47.037 +01:00 [Debug] Using "idsrv" as default scheme for authentication
+2018-01-05 00:35:47.037 +01:00 [Debug] Using "idsrv" as default scheme for sign-in
+2018-01-05 00:35:47.037 +01:00 [Debug] Using "idsrv" as default scheme for sign-out
+2018-01-05 00:35:47.037 +01:00 [Debug] Using "idsrv" as default scheme for challenge
+2018-01-05 00:35:47.037 +01:00 [Debug] Using "idsrv" as default scheme for forbid
+2018-01-05 00:35:47.181 +01:00 [Fatal] Unable to start Kestrel.
+System.InvalidOperationException: A path base can only be configured using IApplicationBuilder.UsePathBase().
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindAddressAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.<BindAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<StartAsync>d__21`1.MoveNext()
+2018-01-05 00:40:49.757 +01:00 [Information] Starting web host: HA Auth
+2018-01-05 00:40:51.919 +01:00 [Information] User profile is available. Using '"C:\Users\Bjarte\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-01-05 00:40:52.141 +01:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-01-05 00:40:52.156 +01:00 [Debug] Using "idsrv" as default scheme for authentication
+2018-01-05 00:40:52.156 +01:00 [Debug] Using "idsrv" as default scheme for sign-in
+2018-01-05 00:40:52.156 +01:00 [Debug] Using "idsrv" as default scheme for sign-out
+2018-01-05 00:40:52.156 +01:00 [Debug] Using "idsrv" as default scheme for challenge
+2018-01-05 00:40:52.156 +01:00 [Debug] Using "idsrv" as default scheme for forbid
+2018-01-05 00:40:52.294 +01:00 [Fatal] Unable to start Kestrel.
+System.InvalidOperationException: A path base can only be configured using IApplicationBuilder.UsePathBase().
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindAddressAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.<BindAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<StartAsync>d__21`1.MoveNext()
+2018-01-05 00:45:44.895 +01:00 [Information] Starting web host: HA Auth
+2018-01-05 00:45:47.177 +01:00 [Information] User profile is available. Using '"C:\Users\Bjarte\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-01-05 00:45:47.365 +01:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-01-05 00:45:47.380 +01:00 [Debug] Using "idsrv" as default scheme for authentication
+2018-01-05 00:45:47.380 +01:00 [Debug] Using "idsrv" as default scheme for sign-in
+2018-01-05 00:45:47.380 +01:00 [Debug] Using "idsrv" as default scheme for sign-out
+2018-01-05 00:45:47.380 +01:00 [Debug] Using "idsrv" as default scheme for challenge
+2018-01-05 00:45:47.380 +01:00 [Debug] Using "idsrv" as default scheme for forbid
+2018-01-05 00:45:47.504 +01:00 [Fatal] Unable to start Kestrel.
+System.InvalidOperationException: A path base can only be configured using IApplicationBuilder.UsePathBase().
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindAddressAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.<BindAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<StartAsync>d__21`1.MoveNext()
+2018-01-05 00:46:26.778 +01:00 [Information] Starting web host: HA Auth
+2018-01-05 00:46:29.067 +01:00 [Information] User profile is available. Using '"C:\Users\Bjarte\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-01-05 00:46:29.257 +01:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-01-05 00:46:29.273 +01:00 [Debug] Using "idsrv" as default scheme for authentication
+2018-01-05 00:46:29.273 +01:00 [Debug] Using "idsrv" as default scheme for sign-in
+2018-01-05 00:46:29.273 +01:00 [Debug] Using "idsrv" as default scheme for sign-out
+2018-01-05 00:46:29.273 +01:00 [Debug] Using "idsrv" as default scheme for challenge
+2018-01-05 00:46:29.273 +01:00 [Debug] Using "idsrv" as default scheme for forbid
+2018-01-05 00:46:29.392 +01:00 [Fatal] Unable to start Kestrel.
+System.InvalidOperationException: A path base can only be configured using IApplicationBuilder.UsePathBase().
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindAddressAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.<BindAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<StartAsync>d__21`1.MoveNext()
+2018-01-05 00:46:46.461 +01:00 [Information] Starting web host: HA Auth
+2018-01-05 00:46:48.617 +01:00 [Information] User profile is available. Using '"C:\Users\Bjarte\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-01-05 00:46:48.794 +01:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-01-05 00:46:48.810 +01:00 [Debug] Using "idsrv" as default scheme for authentication
+2018-01-05 00:46:48.810 +01:00 [Debug] Using "idsrv" as default scheme for sign-in
+2018-01-05 00:46:48.810 +01:00 [Debug] Using "idsrv" as default scheme for sign-out
+2018-01-05 00:46:48.810 +01:00 [Debug] Using "idsrv" as default scheme for challenge
+2018-01-05 00:46:48.810 +01:00 [Debug] Using "idsrv" as default scheme for forbid
+2018-01-05 00:46:52.301 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2018-01-05 00:46:52.351 +01:00 [Information] HEADERS >> :Connection : keep-alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | 
+2018-01-05 00:46:52.808 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" with arguments (null) - ModelState is Valid
+2018-01-05 00:46:55.093 +01:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-05 00:46:55.908 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" in 3211.16ms
+2018-01-05 00:46:55.914 +01:00 [Information] Request finished in 3617.9687ms 200 text/html; charset=utf-8
+2018-01-05 00:46:58.823 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth  
+2018-01-05 00:46:58.823 +01:00 [Information] HEADERS >> :Connection : keep-alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | 
+2018-01-05 00:46:58.853 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" with arguments (null) - ModelState is Valid
+2018-01-05 00:46:58.854 +01:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-05 00:46:58.854 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" in 30.6362ms
+2018-01-05 00:46:58.855 +01:00 [Information] Request finished in 32.3356ms 200 text/html; charset=utf-8
+2018-01-05 00:46:58.873 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/lib/bootstrap/css/bootstrap.css  
+2018-01-05 00:46:58.873 +01:00 [Information] HEADERS >> :Connection : keep-alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:46:58.875 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/css/site.css  
+2018-01-05 00:46:58.875 +01:00 [Information] HEADERS >> :Connection : keep-alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:46:58.876 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/lib/jquery/jquery.js  
+2018-01-05 00:46:58.876 +01:00 [Information] HEADERS >> :Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:46:58.876 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/lib/bootstrap/js/bootstrap.js  
+2018-01-05 00:46:58.876 +01:00 [Information] HEADERS >> :Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:46:58.879 +01:00 [Information] Sending file. Request path: '"/authcontent/css/site.css"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\authcontent\css\site.css"'
+2018-01-05 00:46:58.879 +01:00 [Information] Sending file. Request path: '"/authcontent/lib/bootstrap/css/bootstrap.css"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\authcontent\lib\bootstrap\css\bootstrap.css"'
+2018-01-05 00:46:58.879 +01:00 [Information] Sending file. Request path: '"/authcontent/lib/jquery/jquery.js"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\authcontent\lib\jquery\jquery.js"'
+2018-01-05 00:46:58.879 +01:00 [Information] Sending file. Request path: '"/authcontent/lib/bootstrap/js/bootstrap.js"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\authcontent\lib\bootstrap\js\bootstrap.js"'
+2018-01-05 00:46:58.941 +01:00 [Information] Request finished in 65.6781ms 200 text/css
+2018-01-05 00:46:58.941 +01:00 [Information] Request finished in 68.3361ms 200 text/css
+2018-01-05 00:46:58.961 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/icon.png  
+2018-01-05 00:46:58.963 +01:00 [Information] HEADERS >> :Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:46:58.964 +01:00 [Information] Sending file. Request path: '"/authcontent/icon.png"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\authcontent\icon.png"'
+2018-01-05 00:46:58.967 +01:00 [Information] Request finished in 91.281ms 200 application/javascript
+2018-01-05 00:46:58.981 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/favicon.ico  
+2018-01-05 00:46:58.981 +01:00 [Information] HEADERS >> :Connection : keep-alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:46:58.981 +01:00 [Information] Request finished in 20.4644ms 200 image/png
+2018-01-05 00:46:59.001 +01:00 [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\favicon.ico"'
+2018-01-05 00:46:59.019 +01:00 [Information] Request finished in 143.6283ms 200 application/javascript
+2018-01-05 00:46:59.043 +01:00 [Information] Request finished in 62.4432ms 200 image/x-icon
+2018-01-05 00:47:04.577 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth  
+2018-01-05 00:47:04.577 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | 
+2018-01-05 00:47:04.601 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" with arguments (null) - ModelState is Valid
+2018-01-05 00:47:04.601 +01:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-05 00:47:04.601 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" in 24.1325ms
+2018-01-05 00:47:04.602 +01:00 [Information] Request finished in 24.7816ms 200 text/html; charset=utf-8
+2018-01-05 00:47:04.623 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/lib/bootstrap/css/bootstrap.css  
+2018-01-05 00:47:04.623 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 18:54:39 GMT | If-None-Match : "1d3858d78f19b02" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:47:04.625 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/lib/bootstrap/js/bootstrap.js  
+2018-01-05 00:47:04.625 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/css/site.css  
+2018-01-05 00:47:04.625 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40cf955" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:47:04.625 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40deae0" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:47:04.625 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/lib/jquery/jquery.js  
+2018-01-05 00:47:04.625 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40e0427" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:47:04.626 +01:00 [Information] The file "/authcontent/lib/bootstrap/css/bootstrap.css" was not modified
+2018-01-05 00:47:04.626 +01:00 [Information] The file "/authcontent/lib/jquery/jquery.js" was not modified
+2018-01-05 00:47:04.627 +01:00 [Information] The file "/authcontent/css/site.css" was not modified
+2018-01-05 00:47:04.627 +01:00 [Information] The file "/authcontent/lib/bootstrap/js/bootstrap.js" was not modified
+2018-01-05 00:47:04.629 +01:00 [Information] Request finished in 3.3502ms 304 application/javascript
+2018-01-05 00:47:04.629 +01:00 [Information] Request finished in 3.6555ms 304 text/css
+2018-01-05 00:47:04.631 +01:00 [Information] Request finished in 6.3623ms 304 text/css
+2018-01-05 00:47:04.636 +01:00 [Information] Request finished in 11.4866ms 304 application/javascript
+2018-01-05 00:47:04.649 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/icon.png  
+2018-01-05 00:47:04.649 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/icon.jpg  
+2018-01-05 00:47:04.649 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40dbe3c" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:47:04.649 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 15:22:12 GMT | If-None-Match : "1d3856fcb25e756" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:47:04.649 +01:00 [Information] The file "/authcontent/icon.jpg" was not modified
+2018-01-05 00:47:04.651 +01:00 [Information] The file "/authcontent/icon.png" was not modified
+2018-01-05 00:47:04.651 +01:00 [Information] Request finished in 2.3524ms 304 image/jpeg
+2018-01-05 00:47:04.651 +01:00 [Information] Request finished in 2.4323ms 304 image/png
+2018-01-05 00:47:25.122 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/.well-known/openid-configuration  
+2018-01-05 00:47:25.123 +01:00 [Information] HEADERS >> :Connection : keep-alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | 
+2018-01-05 00:47:25.126 +01:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type "Discovery"
+2018-01-05 00:47:25.129 +01:00 [Debug] Endpoint enabled: "Discovery", successfully created handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2018-01-05 00:47:25.130 +01:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2018-01-05 00:47:25.135 +01:00 [Debug] Start discovery request
+2018-01-05 00:47:25.187 +01:00 [Information] Request finished in 64.3473ms 200 application/json
+2018-01-05 00:48:21.938 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/.well-known/openid-configuration  
+2018-01-05 00:48:21.938 +01:00 [Information] HEADERS >> :Connection : keep-alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | 
+2018-01-05 00:48:21.938 +01:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type "Discovery"
+2018-01-05 00:48:21.938 +01:00 [Debug] Endpoint enabled: "Discovery", successfully created handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2018-01-05 00:48:21.938 +01:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2018-01-05 00:48:21.938 +01:00 [Debug] Start discovery request
+2018-01-05 00:48:21.939 +01:00 [Information] Request finished in 1.052ms 200 application/json
+2018-01-05 00:48:39.125 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth  
+2018-01-05 00:48:39.125 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | 
+2018-01-05 00:48:39.148 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" with arguments (null) - ModelState is Valid
+2018-01-05 00:48:39.149 +01:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-05 00:48:39.149 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" in 24.1975ms
+2018-01-05 00:48:39.149 +01:00 [Information] Request finished in 24.7993ms 200 text/html; charset=utf-8
+2018-01-05 00:48:39.165 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/lib/bootstrap/css/bootstrap.css  
+2018-01-05 00:48:39.165 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 18:54:39 GMT | If-None-Match : "1d3858d78f19b02" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:48:39.165 +01:00 [Information] The file "/authcontent/lib/bootstrap/css/bootstrap.css" was not modified
+2018-01-05 00:48:39.165 +01:00 [Information] Request finished in 0.3621ms 304 text/css
+2018-01-05 00:48:39.170 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/lib/bootstrap/js/bootstrap.js  
+2018-01-05 00:48:39.170 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40cf955" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:48:39.170 +01:00 [Information] The file "/authcontent/lib/bootstrap/js/bootstrap.js" was not modified
+2018-01-05 00:48:39.170 +01:00 [Information] Request finished in 0.5026ms 304 application/javascript
+2018-01-05 00:48:39.179 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/lib/jquery/jquery.js  
+2018-01-05 00:48:39.179 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40e0427" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:48:39.179 +01:00 [Information] The file "/authcontent/lib/jquery/jquery.js" was not modified
+2018-01-05 00:48:39.179 +01:00 [Information] Request finished in 0.3481ms 304 application/javascript
+2018-01-05 00:48:39.190 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/css/site.css  
+2018-01-05 00:48:39.190 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40deae0" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:48:39.190 +01:00 [Information] The file "/authcontent/css/site.css" was not modified
+2018-01-05 00:48:39.191 +01:00 [Information] Request finished in 1.2202ms 304 text/css
+2018-01-05 00:48:39.192 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/authcontent/icon.jpg  
+2018-01-05 00:48:39.193 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 15:22:12 GMT | If-None-Match : "1d3856fcb25e756" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:48:39.194 +01:00 [Information] The file "/authcontent/icon.jpg" was not modified
+2018-01-05 00:48:39.194 +01:00 [Information] Request finished in 2.8712ms 304 image/jpeg
+2018-01-05 00:48:39.227 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/icon.png  
+2018-01-05 00:48:39.227 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40dbe3c" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:48:39.227 +01:00 [Information] The file "/authcontent/icon.png" was not modified
+2018-01-05 00:48:39.228 +01:00 [Information] Request finished in 1.9466ms 304 image/png
+2018-01-05 00:49:30.284 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth  
+2018-01-05 00:49:30.284 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | 
+2018-01-05 00:49:30.308 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" with arguments (null) - ModelState is Valid
+2018-01-05 00:49:30.469 +01:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-05 00:49:30.475 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" in 190.3763ms
+2018-01-05 00:49:30.476 +01:00 [Information] Request finished in 191.4627ms 200 text/html; charset=utf-8
+2018-01-05 00:49:30.499 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/lib/bootstrap/css/bootstrap.css  
+2018-01-05 00:49:30.500 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 18:54:39 GMT | If-None-Match : "1d3858d78f19b02" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:49:30.501 +01:00 [Information] The file "/authcontent/lib/bootstrap/css/bootstrap.css" was not modified
+2018-01-05 00:49:30.501 +01:00 [Information] Request finished in 3.031ms 304 text/css
+2018-01-05 00:49:30.510 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/css/site.css  
+2018-01-05 00:49:30.511 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40deae0" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:49:30.511 +01:00 [Information] The file "/authcontent/css/site.css" was not modified
+2018-01-05 00:49:30.511 +01:00 [Information] Request finished in 0.4828ms 304 text/css
+2018-01-05 00:49:30.520 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/lib/bootstrap/js/bootstrap.js  
+2018-01-05 00:49:30.520 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40cf955" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:49:30.520 +01:00 [Information] The file "/authcontent/lib/bootstrap/js/bootstrap.js" was not modified
+2018-01-05 00:49:30.520 +01:00 [Information] Request finished in 0.3851ms 304 application/javascript
+2018-01-05 00:49:30.521 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/lib/jquery/jquery.js  
+2018-01-05 00:49:30.521 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40e0427" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:49:30.521 +01:00 [Information] The file "/authcontent/lib/jquery/jquery.js" was not modified
+2018-01-05 00:49:30.521 +01:00 [Information] Request finished in 0.3956ms 304 application/javascript
+2018-01-05 00:49:30.533 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/icon.png  
+2018-01-05 00:49:30.533 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40dbe3c" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:49:30.533 +01:00 [Information] The file "/authcontent/icon.png" was not modified
+2018-01-05 00:49:30.533 +01:00 [Information] Request finished in 0.6047ms 304 image/png
+2018-01-05 00:49:30.551 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/icon.jpg  
+2018-01-05 00:49:30.551 +01:00 [Information] HEADERS >> :Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:49:30.551 +01:00 [Information] Sending file. Request path: '"/authcontent/icon.jpg"'. Physical path: '"E:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\wwwroot\authcontent\icon.jpg"'
+2018-01-05 00:49:30.582 +01:00 [Information] Request finished in 30.5613ms 200 image/jpeg
+2018-01-05 00:49:40.645 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth  
+2018-01-05 00:49:40.645 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | 
+2018-01-05 00:49:40.668 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" with arguments (null) - ModelState is Valid
+2018-01-05 00:49:40.815 +01:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-05 00:49:40.823 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" in 177.9855ms
+2018-01-05 00:49:40.824 +01:00 [Information] Request finished in 178.8445ms 200 text/html; charset=utf-8
+2018-01-05 00:49:40.847 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/lib/bootstrap/css/bootstrap.css  
+2018-01-05 00:49:40.847 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 18:54:39 GMT | If-None-Match : "1d3858d78f19b02" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:49:40.847 +01:00 [Information] The file "/authcontent/lib/bootstrap/css/bootstrap.css" was not modified
+2018-01-05 00:49:40.847 +01:00 [Information] Request finished in 0.4472ms 304 text/css
+2018-01-05 00:49:40.847 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/lib/bootstrap/js/bootstrap.js  
+2018-01-05 00:49:40.849 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40cf955" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:49:40.850 +01:00 [Information] The file "/authcontent/lib/bootstrap/js/bootstrap.js" was not modified
+2018-01-05 00:49:40.850 +01:00 [Information] Request finished in 2.7469ms 304 application/javascript
+2018-01-05 00:49:40.850 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/css/site.css  
+2018-01-05 00:49:40.850 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40deae0" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:49:40.850 +01:00 [Information] The file "/authcontent/css/site.css" was not modified
+2018-01-05 00:49:40.851 +01:00 [Information] Request finished in 0.6114ms 304 text/css
+2018-01-05 00:49:40.851 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/lib/jquery/jquery.js  
+2018-01-05 00:49:40.851 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40e0427" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:49:40.851 +01:00 [Information] The file "/authcontent/lib/jquery/jquery.js" was not modified
+2018-01-05 00:49:40.851 +01:00 [Information] Request finished in 0.3414ms 304 application/javascript
+2018-01-05 00:49:40.858 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/icon.jpg  
+2018-01-05 00:49:40.858 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 15:22:12 GMT | If-None-Match : "1d3856fcb25e756" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:49:40.862 +01:00 [Information] The file "/authcontent/icon.jpg" was not modified
+2018-01-05 00:49:40.862 +01:00 [Information] Request finished in 3.6302ms 304 image/jpeg
+2018-01-05 00:49:40.875 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/icon.png  
+2018-01-05 00:49:40.875 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40dbe3c" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:49:40.875 +01:00 [Information] The file "/authcontent/icon.png" was not modified
+2018-01-05 00:49:40.875 +01:00 [Information] Request finished in 0.5974ms 304 image/png
+2018-01-05 00:49:50.211 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth  
+2018-01-05 00:49:50.211 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | 
+2018-01-05 00:49:50.236 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" with arguments (null) - ModelState is Valid
+2018-01-05 00:49:50.388 +01:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-05 00:49:50.397 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (HAAuthServer)" in 185.517ms
+2018-01-05 00:49:50.397 +01:00 [Information] Request finished in 186.1066ms 200 text/html; charset=utf-8
+2018-01-05 00:49:50.427 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/lib/bootstrap/css/bootstrap.css  
+2018-01-05 00:49:50.427 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/css/site.css  
+2018-01-05 00:49:50.427 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/lib/jquery/jquery.js  
+2018-01-05 00:49:50.427 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40deae0" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:49:50.427 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40e0427" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:49:50.427 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : text/css,*/*;q=0.1 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 18:54:39 GMT | If-None-Match : "1d3858d78f19b02" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:49:50.427 +01:00 [Information] The file "/authcontent/lib/jquery/jquery.js" was not modified
+2018-01-05 00:49:50.427 +01:00 [Information] The file "/authcontent/css/site.css" was not modified
+2018-01-05 00:49:50.427 +01:00 [Information] The file "/authcontent/lib/bootstrap/css/bootstrap.css" was not modified
+2018-01-05 00:49:50.427 +01:00 [Information] Request finished in 0.6152ms 304 text/css
+2018-01-05 00:49:50.427 +01:00 [Information] Request finished in 0.584ms 304 text/css
+2018-01-05 00:49:50.434 +01:00 [Information] Request finished in 6.8344ms 304 application/javascript
+2018-01-05 00:49:50.436 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/lib/bootstrap/js/bootstrap.js  
+2018-01-05 00:49:50.436 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40cf955" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:49:50.436 +01:00 [Information] The file "/authcontent/lib/bootstrap/js/bootstrap.js" was not modified
+2018-01-05 00:49:50.436 +01:00 [Information] Request finished in 0.2545ms 304 application/javascript
+2018-01-05 00:49:50.445 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/icon.png  
+2018-01-05 00:49:50.446 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 12:07:50 GMT | If-None-Match : "1d38554a40dbe3c" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:49:50.446 +01:00 [Information] The file "/authcontent/icon.png" was not modified
+2018-01-05 00:49:50.446 +01:00 [Information] Request finished in 0.4128ms 304 image/png
+2018-01-05 00:49:50.472 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/authcontent/icon.jpg  
+2018-01-05 00:49:50.472 +01:00 [Information] HEADERS >> :Cache-Control : max-age=0 | Connection : keep-alive | Accept : */* | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | If-Modified-Since : Thu, 04 Jan 2018 15:22:12 GMT | If-None-Match : "1d3856fcb25e756" | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | 
+2018-01-05 00:49:50.472 +01:00 [Information] The file "/authcontent/icon.jpg" was not modified
+2018-01-05 00:49:50.472 +01:00 [Information] Request finished in 0.5665ms 304 image/jpeg
+2018-01-05 00:49:56.979 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/grants  
+2018-01-05 00:49:56.980 +01:00 [Information] HEADERS >> :Connection : keep-alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | 
+2018-01-05 00:49:57.001 +01:00 [Information] Authorization failed for user: null.
+2018-01-05 00:49:57.002 +01:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+2018-01-05 00:49:57.006 +01:00 [Information] Executing ChallengeResult with authentication schemes (["idsrv"]).
+2018-01-05 00:49:57.011 +01:00 [Information] AuthenticationScheme: "idsrv" was challenged.
+2018-01-05 00:49:57.011 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.GrantsController.Index (HAAuthServer)" in 17.3576ms
+2018-01-05 00:49:57.011 +01:00 [Information] Request finished in 32.0032ms 302 
+2018-01-05 00:49:57.023 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/auth/account/login?returnUrl=%2Fauth%2Fgrants  
+2018-01-05 00:49:57.023 +01:00 [Information] HEADERS >> :Connection : keep-alive | Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Encoding : gzip, deflate | Accept-Language : en-GB,en;q=0.5 | Host : localhost:5000 | Referer : http://localhost:5000/auth | User-Agent : Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 | Upgrade-Insecure-Requests : 1 | 
+2018-01-05 00:49:57.118 +01:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.AccountController.Login (HAAuthServer)" with arguments (["/auth/grants"]) - ModelState is Valid
+2018-01-05 00:49:57.743 +01:00 [Information] Executing ViewResult, running view at path "/Views/Account/Login.cshtml".
+2018-01-05 00:49:57.983 +01:00 [Information] Executed action "IdentityServer4.Quickstart.UI.AccountController.Login (HAAuthServer)" in 917.2051ms
+2018-01-05 00:49:57.983 +01:00 [Information] Request finished in 959.2816ms 200 text/html; charset=utf-8

@@ -1,0 +1,16 @@
+e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer
+--output-path=obj\Debug\netcoreapp2.0\
+--application-name=HAAuthServer
+--content-root=e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer
+--file=e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\Views\Account\LoggedOut.cshtml
+--file=e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\Views\Account\Login.cshtml
+--file=e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\Views\Account\Logout.cshtml
+--file=e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\Views\Consent\Index.cshtml
+--file=e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\Views\Consent\_ScopeListItem.cshtml
+--file=e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\Views\Grants\Index.cshtml
+--file=e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\Views\Home\Index.cshtml
+--file=e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\Views\Shared\Error.cshtml
+--file=e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\Views\Shared\_Layout.cshtml
+--file=e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\Views\Shared\_ValidationSummary.cshtml
+--file=e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\Views\_ViewImports.cshtml
+--file=e:\Development\c#\Projects\BatmanAuthServer\src\BatmanAuthServer\Views\_ViewStart.cshtml
